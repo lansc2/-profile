@@ -111,7 +111,7 @@ img {
 }
 
 .full-height {
-    min-height: 25vh;
+    min-height: 25dvh;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -180,7 +180,7 @@ img {
 
 @media (min-width: 992px) {
     .navbar {
-        min-height: 100vh;
+        min-height: 100dvh;
         width: var(--sidbar-width);
         background: linear-gradient(to bottom, white,transparent), url(../images/moonn.jpg);
         background-size: cover;
