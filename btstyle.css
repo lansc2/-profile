@@ -78,8 +78,8 @@
 *, ::after, ::before {
     box-sizing: border-box
 }
-
-@media (prefers-reduced-motion:no-preference) {
+/*@media only screen and (max-width: 600px) */
+@media only screen and (prefers-reduced-motion:no-preference) {
     :root {
         scroll-behavior: smooth
     }
@@ -118,7 +118,7 @@ hr {
     font-size: calc(1.375rem + 1.5vw)
 }
 
-@media (min-width:1200px) {
+@media only screen and (max-width: 600px) {
     .h1, h1 {
         font-size: 2.5rem
     }
@@ -128,7 +128,7 @@ hr {
     font-size: calc(1.325rem + .9vw)
 }
 
-@media (min-width:1200px) {
+@media only screen and (max-width:1200px) {
     .h2, h2 {
         font-size: 2rem
     }
@@ -138,7 +138,7 @@ hr {
     font-size: calc(1.3rem + .6vw)
 }
 
-@media (min-width:1200px) {
+@media only screen and (max-width:1200px) {
     .h3, h3 {
         font-size: 1.75rem
     }
@@ -148,7 +148,7 @@ hr {
     font-size: calc(1.275rem + .3vw)
 }
 
-@media (min-width:1200px) {
+@media only screen and (max-width:1200px) {
     .h4, h4 {
         font-size: 1.5rem
     }
@@ -467,7 +467,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width:1200px) {
+@media only screen and (max-width:1200px) {
     .display-1 {
         font-size: 5rem
     }
@@ -479,7 +479,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width:1200px) {
+@media and (max-width:1200px) {
     .display-2 {
         font-size: 4.5rem
     }
@@ -491,7 +491,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width:1200px) {
+@media only screen and (max-width:1200px) {
     .display-3 {
         font-size: 4rem
     }
@@ -503,7 +503,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width:1200px) {
+@media only screen and (max-width:1200px) {
     .display-4 {
         font-size: 3.5rem
     }
@@ -515,7 +515,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width:1200px) {
+@media only screen and (max-width:1200px) {
     .display-5 {
         font-size: 3rem
     }
@@ -614,7 +614,7 @@ progress {
     margin-left: auto
 }
 
-@media (min-width:576px) {
+@media only screen and (min-width:576px) {
     .container, .container-sm {
         max-width: 540px
     }
